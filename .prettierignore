@@ -1,0 +1,12 @@
+*.md
+.next
+.cache
+.github*
+.DS_Store
+package-lock.json
+public
+node_modules
+node_modules/*
+next-env.d.ts
+next.config.ts
+coverage

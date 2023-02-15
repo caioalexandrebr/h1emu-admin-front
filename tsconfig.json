@@ -16,7 +16,8 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@/Atoms*Atoms": ["./src/*"]
+      "@styles/*": ["src/styles/*"],
+      "@Molecules/*": ["src/components/Molecules/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
