@@ -4,9 +4,9 @@ const nextConfig = {
   compiler: {
     styledComponents: {
       displayName: true,
-      ssr: true,
-    },
-  },
+      ssr: true
+    }
+  }
 };
 
 module.exports = nextConfig;
