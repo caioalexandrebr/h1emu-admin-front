@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
+import { colors } from '@tokens';
+
 export const Button = styled.button`
   padding: 14px 10px;
-  color: white;
+  color: ${colors.white};
   border: none;
-  background-color: #b80000;
+  background-color: ${colors.primary};
 `;
